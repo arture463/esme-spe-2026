@@ -1,0 +1,111 @@
+/* Custom Styles for ESME Course Portal */
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  --sidebar-bg: #ffffff;
+  --header-bg: rgba(255, 255, 255, 0.85);
+}
+
+.dark {
+  --bg-primary: #0b0f19;
+  --bg-card: #151d2f;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border-color: #1e293b;
+  --sidebar-bg: #0f172a;
+  --header-bg: rgba(15, 23, 42, 0.85);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glassmorphism Header */
+.glass-header {
+  background-color: var(--header-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Card Hover Effects */
+.doc-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.doc-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  border-color: #6366f1;
+}
+.dark .doc-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);
+  border-color: #818cf8;
+}
+
+/* Sidebar styling */
+.sidebar-link {
+  transition: all 0.15s ease-in-out;
+}
+.sidebar-link.active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(129, 140, 248, 0.08));
+  color: #4f46e5;
+  border-left: 3px solid #6366f1;
+  font-weight: 600;
+}
+.dark .sidebar-link.active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(129, 140, 248, 0.15));
+  color: #a5b4fc;
+  border-left: 3px solid #818cf8;
+}
+
+/* Line clamp */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Modal Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content-animated {
+  animation: modalFadeIn 0.2s ease-out forwards;
+}

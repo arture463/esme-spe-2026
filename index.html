@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESME Sudria • Portail des Cours Spé (S03)</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col bg-slate-50 dark:bg-[#0b0f19] text-slate-800 dark:text-slate-100 transition-colors duration-200">
+
+  <!-- Header -->
+  <header class="glass-header sticky top-0 z-30 px-4 lg:px-8 py-3 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center gap-3">
+        <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
+          <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">ESME Spé <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-400 font-semibold border border-indigo-200 dark:border-indigo-800">Semestre 3</span></h1>
+            <span class="hidden sm:inline-flex items-center text-xs font-medium px-2 py-0.5 rounded-md bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800/50">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5 animate-pulse"></span>
+              Paris & National
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">Portail d'études, révisions, TD & annales d'examens</p>
+        </div>
+      </div>
+
+      <!-- Quick Search Bar -->
+      <div class="flex-1 max-w-xl mx-2">
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Rechercher un cours, TD, examen, chapitre (ex: Séries, Fourier, Laplace, DS)..." 
+            class="w-full pl-10 pr-10 py-2 text-sm rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/90 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 transition-all shadow-sm"
+          >
+          <button id="clearSearchBtn" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-2">
+        <!-- Dark / Light Mode Toggle -->
+        <button id="themeToggleBtn" title="Basculer Mode Sombre / Clair" class="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shadow-sm">
+          <i data-lucide="moon" class="w-4 h-4 hidden dark:block"></i>
+          <i data-lucide="sun" class="w-4 h-4 block dark:hidden"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Body Content -->
+  <div class="flex-1 max-w-7xl w-full mx-auto px-4 lg:px-8 py-6 flex gap-6">
+
+    <!-- Sidebar : UE & Matières -->
+    <aside id="sidebar" class="w-72 flex-shrink-0 hidden lg:block space-y-6">
+      
+      <!-- Global Summary Card -->
+      <div class="p-4 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800/80 shadow-sm">
+        <div class="flex items-center justify-between text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
+          <span>Statistiques</span>
+          <span class="text-indigo-600 dark:text-indigo-400 font-bold" id="statTotalDocs">176 documents</span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-center">
+          <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+            <div class="text-base font-bold text-slate-900 dark:text-white" id="statSubjectsCount">12</div>
+            <div class="text-[11px] text-slate-500 dark:text-slate-400">Matières</div>
+          </div>
+          <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+            <div class="text-base font-bold text-slate-900 dark:text-white" id="statTotalSize">399 Mo</div>
+            <div class="text-[11px] text-slate-500 dark:text-slate-400">Ressources</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation by UE and Subjects -->
+      <div class="space-y-4">
+        
+        <!-- All Subjects Button -->
+        <button id="btnAllSubjects" class="sidebar-link active w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-medium transition-all text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800/60">
+          <div class="flex items-center gap-2.5">
+            <i data-lucide="layout-grid" class="w-4 h-4 text-indigo-500"></i>
+            <span>Toutes les matières</span>
+          </div>
+          <span class="text-xs px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400" id="badgeAllDocsCount">176</span>
+        </button>
+
+        <div class="border-t border-slate-200 dark:border-slate-800/80 my-2"></div>
+
+        <!-- UE Groups Container -->
+        <div id="ueGroupsContainer" class="space-y-4 text-sm">
+          <!-- Populated dynamically by app.js -->
+        </div>
+
+      </div>
+
+    </aside>
+
+    <!-- Main Section -->
+    <main class="flex-1 min-w-0 flex flex-col space-y-5">
+
+      <!-- Active Subject Banner (Hidden by default, shown when a subject is clicked) -->
+      <div id="subjectBanner" class="hidden p-5 rounded-2xl bg-gradient-to-r from-indigo-900/10 via-purple-900/10 to-transparent dark:from-indigo-950/40 dark:via-purple-950/20 border border-indigo-200/60 dark:border-indigo-800/40 relative overflow-hidden">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 relative z-10">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span id="bannerUeBadge" class="text-xs font-bold px-2 py-0.5 rounded bg-indigo-600 text-white">UE1</span>
+              <span id="bannerCode" class="text-xs font-mono text-slate-500 dark:text-slate-400">MATHFONDA3</span>
+            </div>
+            <h2 id="bannerTitle" class="text-xl font-bold text-slate-900 dark:text-white">Mathématiques Fondamentales 3</h2>
+            <p id="bannerDesc" class="text-xs text-slate-600 dark:text-slate-400 mt-1 max-w-xl">Séries numériques, espaces vectoriels normés, suites et séries de fonctions, intégration.</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button id="bannerResetBtn" class="text-xs px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 flex items-center gap-1.5 transition-colors">
+              <i data-lucide="x" class="w-3.5 h-3.5"></i>
+              Voir tout
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Controls Bar -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800/80 shadow-sm">
+        
+        <!-- Type Tabs -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 md:pb-0 text-xs font-medium no-scrollbar" id="typeFilterTabs">
+          <button data-type="all" class="type-pill active px-3 py-1.5 rounded-xl bg-indigo-600 text-white font-semibold transition-all">Tous (<span id="typeCountAll">0</span>)</button>
+          <button data-type="Cours" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">📚 Cours (<span id="typeCountCours">0</span>)</button>
+          <button data-type="TD" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">📝 TD (<span id="typeCountTd">0</span>)</button>
+          <button data-type="TD & Corrigé" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">✅ Corrigés (<span id="typeCountCorr">0</span>)</button>
+          <button data-type="Examen" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">🎯 Examens (<span id="typeCountExam">0</span>)</button>
+          <button data-type="TP" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">💻 TP (<span id="typeCountTp">0</span>)</button>
+          <button data-type="Projet" class="type-pill px-3 py-1.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">📋 Projets (<span id="typeCountProj">0</span>)</button>
+        </div>
+
+        <!-- Origin Switcher: Paris vs National vs All -->
+        <div class="flex items-center gap-1 bg-slate-100 dark:bg-slate-800/80 p-1 rounded-xl text-xs flex-shrink-0 self-start md:self-auto">
+          <button data-origin="all" class="origin-pill active px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-white font-medium shadow-xs transition-all">Tous</button>
+          <button data-origin="Paris" class="origin-pill px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center gap-1">
+            <span>🗼</span> Paris
+          </button>
+          <button data-origin="National" class="origin-pill px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center gap-1">
+            <span>🌐</span> National
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Results Count Bar & Sorting -->
+      <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 px-1">
+        <div class="flex items-center gap-2">
+          <span>Affichage de <strong class="text-slate-900 dark:text-white font-semibold" id="displayedDocsCount">0</strong> documents</span>
+          <span id="activeFilterBadge" class="hidden px-2 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800/50"></span>
+        </div>
+        <div class="flex items-center gap-2">
+          <label for="sortSelect" class="hidden sm:inline">Trier par :</label>
+          <select id="sortSelect" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-2 py-1 text-slate-700 dark:text-slate-300 focus:outline-none focus:ring-1 focus:ring-indigo-500">
+            <option value="default">Ordre pédagogique</option>
+            <option value="titleAsc">Titre (A à Z)</option>
+            <option value="titleDesc">Titre (Z à A)</option>
+            <option value="sizeDesc">Taille (Plus lourd d'abord)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Documents Grid Container -->
+      <div id="documentsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Empty State (When no results found) -->
+      <div id="emptyState" class="hidden flex-col items-center justify-center p-12 text-center rounded-2xl bg-white dark:bg-slate-900/40 border border-dashed border-slate-300 dark:border-slate-800">
+        <div class="w-14 h-14 rounded-2xl bg-indigo-50 dark:bg-indigo-950/50 flex items-center justify-center text-indigo-500 mb-3">
+          <i data-lucide="file-question" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-base font-bold text-slate-900 dark:text-white">Aucun document ne correspond à votre recherche</h3>
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1 max-w-sm">Essayez de modifier votre mot-clé, de changer de filtre de type ou de sélectionner « Tous les campus ».</p>
+        <button id="resetSearchEmptyBtn" class="mt-4 px-4 py-2 text-xs font-semibold rounded-xl bg-indigo-600 text-white hover:bg-indigo-700 transition-colors shadow-sm">
+          Réinitialiser tous les filtres
+        </button>
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Document Preview Modal -->
+  <div id="viewerModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-950/80 backdrop-blur-sm transition-all duration-200">
+    <div class="modal-content-animated w-full max-w-6xl h-[92vh] flex flex-col rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden">
+      
+      <!-- Modal Header -->
+      <div class="px-5 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-4 bg-slate-50/50 dark:bg-slate-900/50">
+        <div class="flex items-center gap-3 min-w-0">
+          <div id="modalIconContainer" class="w-8 h-8 rounded-lg bg-rose-100 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div class="min-w-0">
+            <h3 id="modalDocTitle" class="text-sm font-bold text-slate-900 dark:text-white truncate">Titre du document</h3>
+            <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+              <span id="modalSubjectBadge" class="font-medium">Matière</span>
+              <span>•</span>
+              <span id="modalTypeBadge" class="px-1.5 py-0.2 rounded bg-slate-200 dark:bg-slate-800 text-[10px]">Type</span>
+              <span>•</span>
+              <span id="modalSizeBadge">0 MB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 flex-shrink-0">
+          <a id="modalExternalLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center gap-1.5 transition-colors" title="Ouvrir dans un nouvel onglet">
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            <span class="hidden sm:inline">Plein écran</span>
+          </a>
+          <a id="modalDownloadLink" href="#" download class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-xs font-semibold text-white flex items-center gap-1.5 transition-colors shadow-sm" title="Télécharger">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span class="hidden sm:inline">Télécharger</span>
+          </a>
+          <button id="modalCloseBtn" class="p-2 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Fermer (Échap)">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body (Viewer) -->
+      <div class="flex-1 w-full h-full bg-slate-100 dark:bg-slate-950 relative overflow-hidden flex items-center justify-center">
+        <!-- PDF / HTML Iframe Viewer -->
+        <iframe id="pdfViewerFrame" src="" class="w-full h-full border-none hidden"></iframe>
+        
+        <!-- Non-PDF / Fallback Card -->
+        <div id="nonPdfFallback" class="hidden flex-col items-center justify-center p-8 text-center max-w-md">
+          <div class="w-16 h-16 rounded-2xl bg-indigo-100 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-4">
+            <i data-lucide="code" class="w-8 h-8"></i>
+          </div>
+          <h4 id="fallbackTitle" class="text-base font-bold text-slate-900 dark:text-white mb-2">Fichier de code ou archive</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mb-6">Ce fichier (.ipynb, .zip, .c, .py) est destiné à être téléchargé ou ouvert directement dans votre environnement de développement.</p>
+          <a id="fallbackDownloadBtn" href="#" download class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-xs font-semibold text-white flex items-center gap-2 shadow-md">
+            <i data-lucide="download" class="w-4 h-4"></i>
+            Télécharger le fichier
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Embed Data & Scripts -->
+  <script src="courses_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

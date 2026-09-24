@@ -1,0 +1,38 @@
+========================================================================
+  ESME SUDRIA • PORTAIL DES COURS SPÉ (S03 - 2026/2027)
+  GUIDE RAPIDE DE LANCEMENT (WINDOWS & MAC)
+========================================================================
+
+Ce dossier contient l'ensemble du site web, des cours, des TD et des examens de Spé ESME.
+Un guide complet et détaillé est également disponible dans le fichier Word :
+-> GUIDE_UTILISATION_PORTAIL.docx
+
+
+--- SOUS WINDOWS ---
+1. Double-cliquez simplement sur :
+   Lancer_Portail.bat
+2. Le site s'ouvre automatiquement dans votre navigateur (Chrome / Edge) sur :
+   http://localhost:8000
+(Vous pouvez aussi ouvrir directement "index.html" avec votre navigateur).
+
+
+--- SOUS MAC (macOS) OU LINUX ---
+1. Double-cliquez sur :
+   Lancer_Portail_Mac.command
+   (Si macOS affiche un message de sécurité la 1ère fois, faites Clic droit > Ouvrir).
+2. Le site s'ouvre dans Safari ou Chrome sur :
+   http://localhost:8000
+(Ou faites Clic droit sur "index.html" > Ouvrir avec > Safari / Chrome).
+
+
+--- CONTENU INCLUS ---
+- 12 matières (UE1 Maths & Signal, UE2 Sciences Ingénieur, UE3 Numérique, UE4 Entreprise)
+- 176 documents vérifiés, nettoyés et triés (Cours, TD, Corrigés, Examens, TP)
+- Examens & TD avec corrigés complets et officiels directement fusionnés dans chaque PDF
+- Filtres Paris vs National, recherche instantanée et visionneuse PDF intégrée
+
+
+--- MISE A JOUR ---
+Pour ajouter de nouveaux cours plus tard, déposez les PDF dans "courses_data" 
+et double-cliquez sur "Mettre_A_Jour.bat".
+========================================================================
