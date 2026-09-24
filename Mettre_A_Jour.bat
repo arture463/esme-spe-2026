@@ -4,7 +4,11 @@ cd /d "%~dp0"
 echo ========================================================
 echo   Mise a jour automatique du Portail ESME Spe
 echo ========================================================
-echo Scan et generation de l'index des cours...
+echo.
+echo 1. Synchronisation avec GitHub (recuperation des cours des camarades)...
+git pull origin main
+echo.
+echo 2. Scan et generation du catalogue de cours...
 python build_master_index.py
 echo.
 echo ========================================================

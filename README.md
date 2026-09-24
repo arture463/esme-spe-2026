@@ -34,20 +34,36 @@
 
 ---
 
-## 🔄 Workflow de Mise à Jour & Synchronisation
+## 👥 TRAVAIL COLLABORATIF À PLUSIEURS (RÈGLES IMPORTANTES)
 
-Pour ajouter un nouveau cours ou actualiser le site :
+Ce projet est conçu pour que **plusieurs étudiants travaillent et révisent ensemble** sur le même dépôt.
 
-1. **Synchroniser avec `git pull` :**
+### ⚠️ Règle d'or absolue :
+> **Toujours exécuter `git pull` avant de commencer à travailler** pour récupérer immédiatement les cours, TD ou corrections déposés par les camarades et éviter tout conflit.
+
+### 📥 1. Installation pour un nouveau collaborateur
+Le camarade clone le dépôt sur sa machine :
+```bash
+git clone https://github.com/arture463/esme-spe-2026.git
+cd esme-spe-2026
+```
+
+### 🔄 2. Workflow à suivre pour chaque collaborateur
+Chaque fois qu'un étudiant souhaite ajouter un document ou apporter des modifications :
+
+1. **Synchroniser la version locale (OBLIGATOIRE) :**
    ```bash
-   git pull
+   git pull origin main
    ```
-2. **Ajouter le fichier :** Déposez le nouveau document dans `courses_data/<MATIERE>/`.
-3. **Mettre à jour l'index :** Double-cliquez sur `Mettre_A_Jour.bat` (ou exécutez `python build_master_index.py`).
-4. **Publier en ligne :**
+2. **Déposer les nouveaux fichiers :**
+   - Glisser les PDF dans le dossier de la matière (ex : `courses_data/MECAFLU/`).
+3. **Mettre à jour l'index :**
+   - Double-cliquer sur `Mettre_A_Jour.bat` (ce script effectue automatiquement un `git pull` puis réindexe tous les cours avec `build_master_index.py`).
+4. **Envoyer le travail à tout le monde :**
    ```bash
    git add .
-   git commit -m "Ajout de nouveaux cours"
-   git push
+   git commit -m "Ajout du TD 3 de Maths (par [Votre Nom])"
+   git push origin main
    ```
-   *Le site en ligne GitHub Pages est actualisé automatiquement en direct.*
+
+⚡ **Mise à jour instantanée :** Dès qu'un commit est poussé, le site public [**https://arture463.github.io/esme-spe-2026/**](https://arture463.github.io/esme-spe-2026/) est réactualisé en moins d'une minute pour toute la promotion !
