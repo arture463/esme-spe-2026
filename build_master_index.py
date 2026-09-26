@@ -207,6 +207,12 @@ def get_clean_doc_info(subj_code, fname, rel_path):
         elif "fiche_revision_diodes_arthur" in fn_norm:
             clean_title = "Fiche Mémo Rapide : Caractéristiques I-V et Formules Clés"
             doc_type = "Cours"; section = "Fiches Mémo & Révisions"; order = 31
+        elif "ea1-cours-les-diodes" in fn_norm or "cours-les-diodes" in fn_norm:
+            clean_title = "Cours Magistral : Les Diodes et Jonction PN (Slides Novatiel)"
+            doc_type = "Cours"; section = "Supports de Cours"; order = 5
+        elif "ea1-td1-caracteristiques" in fn_norm or "caracteristiques-diodes" in fn_norm:
+            clean_title = "TD 1 : Caractéristiques Principales des Diodes Standards (Arezki Haritouche)"
+            doc_type = "TD"; section = "Travaux Dirigés"; order = 8
 
     # ==================== MATHFONDA3 ====================
     elif subj_code == "MATHFONDA3":
@@ -279,9 +285,18 @@ def get_clean_doc_info(subj_code, fname, rel_path):
         elif "examen-signaux-2024-2025" in fn_norm:
             clean_title = "Examen 2024-2025 : Corrigé & Réponses Détaillées avec Barème"
             doc_type = "Examen"; section = "Examens & Annales"; order = 3
+        elif "la_transformee_de_laplace" in fn_norm or "transformee_de_laplace" in fn_norm:
+            clean_title = "Fiche Méthode : La Transformée de Laplace, Mode d'Emploi (Hakeim Talleb)"
+            doc_type = "Cours"; section = "Supports de Cours"; order = 8
         elif "chapitre - 5 - arqs" in fn_norm or "chapitre 5 - arqs" in fn_norm:
             clean_title = "Chapitre 5 : Approximation des Régimes Quasi-Stationnaires (ARQS)"
             doc_type = "Cours"; section = "Supports de Cours"; order = 10
+        elif "td1-regimes-transitoires" in fn_norm:
+            clean_title = "TD 1 : Régimes Transitoires - Corrigé Détaillé (Double RC, Défibrillateur, RLC)"
+            doc_type = "TD & Corrigé"; section = "Travaux Dirigés"; order = 5
+        elif "tube-a-decharge" in fn_norm or "tube a decharge" in fn_norm:
+            clean_title = "TD Séquence 1 - Exercice 2 : Le Tube à Décharge & Oscillateur de Relaxation"
+            doc_type = "TD & Corrigé"; section = "Travaux Dirigés"; order = 6
         elif "td5 - arqs" in fn_norm:
             clean_title = "TD 5 : Applications de l'ARQS et Circuits Électrocinétiques"
             doc_type = "TD"; section = "Travaux Dirigés"; order = 11

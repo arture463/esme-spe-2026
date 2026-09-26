@@ -3,8 +3,8 @@
   "promotion": "Ingénieur Spé (2ème année)",
   "semester": "Semestre 3 (S03)",
   "campus_user": "Paris",
-  "total_documents": 89,
-  "total_size_formatted": "92.2 MB",
+  "total_documents": 94,
+  "total_size_formatted": "97.3 MB",
   "total_subjects": 12,
   "subjects": {
     "MATHFONDA3": {
@@ -415,7 +415,7 @@
       "description": "Électrocinétique, régimes transitoires des circuits du 1er et 2nd ordre, transformée de Laplace, filtrage linéaire",
       "icon": "activity",
       "color": "sky",
-      "document_count": 5,
+      "document_count": 8,
       "documents": [
         {
           "id": "SIGNAUXSYS_24",
@@ -466,6 +466,54 @@
           "relative_path": "courses_data/SIGNAUXSYS/Examen-Signaux-2024-2025-RéponsesBarème.pdf"
         },
         {
+          "id": "SIGNAUXSYS_30",
+          "title": "TD 1 : Régimes Transitoires - Corrigé Détaillé (Double RC, Défibrillateur, RLC)",
+          "filename": "TD1-Regimes-transitoires-corrige-detaille.pdf",
+          "extension": "pdf",
+          "size_bytes": 322124,
+          "size_formatted": "314.6 KB",
+          "subject_code": "SIGNAUXSYS",
+          "subject_name": "Signaux et Systèmes",
+          "ue": "UE1",
+          "section": "Travaux Dirigés",
+          "doc_type": "TD & Corrigé",
+          "origin": "Tous campus / Tronc Commun",
+          "order_priority": 5,
+          "relative_path": "courses_data/SIGNAUXSYS/TD1-Regimes-transitoires-corrige-detaille.pdf"
+        },
+        {
+          "id": "SIGNAUXSYS_29",
+          "title": "TD Séquence 1 - Exercice 2 : Le Tube à Décharge & Oscillateur de Relaxation",
+          "filename": "TD-Sequence1-Exo2-Le-tube-a-decharge.pdf",
+          "extension": "pdf",
+          "size_bytes": 845381,
+          "size_formatted": "825.6 KB",
+          "subject_code": "SIGNAUXSYS",
+          "subject_name": "Signaux et Systèmes",
+          "ue": "UE1",
+          "section": "Travaux Dirigés",
+          "doc_type": "TD & Corrigé",
+          "origin": "Tous campus / Tronc Commun",
+          "order_priority": 6,
+          "relative_path": "courses_data/SIGNAUXSYS/TD-Sequence1-Exo2-Le-tube-a-decharge.pdf"
+        },
+        {
+          "id": "SIGNAUXSYS_28",
+          "title": "Fiche Méthode : La Transformée de Laplace, Mode d'Emploi (Hakeim Talleb)",
+          "filename": "La_transformee_de_Laplace_mode_d_emploi.pdf",
+          "extension": "pdf",
+          "size_bytes": 201208,
+          "size_formatted": "196.5 KB",
+          "subject_code": "SIGNAUXSYS",
+          "subject_name": "Signaux et Systèmes",
+          "ue": "UE1",
+          "section": "Supports de Cours",
+          "doc_type": "Cours",
+          "origin": "Tous campus / Tronc Commun",
+          "order_priority": 8,
+          "relative_path": "courses_data/SIGNAUXSYS/La_transformee_de_Laplace_mode_d_emploi.pdf"
+        },
+        {
           "id": "SIGNAUXSYS_26",
           "title": "Chapitre 5 : Approximation des Régimes Quasi-Stationnaires (ARQS)",
           "filename": "Chapitre - 5 - ARQS (FR).pdf",
@@ -482,7 +530,7 @@
           "relative_path": "courses_data/SIGNAUXSYS/Chapitre - 5 - ARQS (FR).pdf"
         },
         {
-          "id": "SIGNAUXSYS_28",
+          "id": "SIGNAUXSYS_31",
           "title": "TD 5 : Applications de l'ARQS et Circuits Électrocinétiques",
           "filename": "TD5 - ARQS (FR).pdf",
           "extension": "pdf",
@@ -509,7 +557,7 @@
       "document_count": 15,
       "documents": [
         {
-          "id": "SYSTECH3_33",
+          "id": "SYSTECH3_36",
           "title": "Final Exam 2026 : Systèmes Technologiques Spé (Épreuve Complète)",
           "filename": "SPE ST4 Final Exam 2026 FR.pdf",
           "extension": "pdf",
@@ -525,7 +573,7 @@
           "relative_path": "courses_data/SYSTECH3/SPE ST4 Final Exam 2026 FR.pdf"
         },
         {
-          "id": "SYSTECH3_34",
+          "id": "SYSTECH3_37",
           "title": "MidTerms Spé / Sup : Systèmes Techniques avec Grille d'Évaluation",
           "filename": "SUP_Systèmes Techniques 2(avec grille)_MIDTERMS_FR.pdf",
           "extension": "pdf",
@@ -541,7 +589,7 @@
           "relative_path": "courses_data/SYSTECH3/SUP_Systèmes Techniques 2(avec grille)_MIDTERMS_FR.pdf"
         },
         {
-          "id": "SYSTECH3_30",
+          "id": "SYSTECH3_33",
           "title": "MidTerm Systèmes Techniques : Automatique Continue & Stabilité",
           "filename": "Midterm Des Systèmes Techniques.pdf",
           "extension": "pdf",
@@ -557,7 +605,7 @@
           "relative_path": "courses_data/SYSTECH3/Midterm Des Systèmes Techniques.pdf"
         },
         {
-          "id": "SYSTECH3_31",
+          "id": "SYSTECH3_34",
           "title": "MidTerms 2023-2024 : Systèmes Techniques (Corrigé Intégral)",
           "filename": "Midtermes 2023-2024 corrigé.pdf",
           "extension": "pdf",
@@ -573,7 +621,7 @@
           "relative_path": "courses_data/SYSTECH3/Midtermes 2023-2024 corrigé.pdf"
         },
         {
-          "id": "SYSTECH3_29",
+          "id": "SYSTECH3_32",
           "title": "Final Exam ST2 2024 : Épreuve d'Automatique et Modélisation",
           "filename": "FE ST2 2024.pdf",
           "extension": "pdf",
@@ -589,7 +637,7 @@
           "relative_path": "courses_data/SYSTECH3/FE ST2 2024.pdf"
         },
         {
-          "id": "SYSTECH3_37",
+          "id": "SYSTECH3_40",
           "title": "Cours & Formulaire : Fonctions de Transfert & Transformée de Laplace",
           "filename": "Z-Fonction de transfert.pdf",
           "extension": "pdf",
@@ -605,7 +653,7 @@
           "relative_path": "courses_data/SYSTECH3/Z-Fonction de transfert.pdf"
         },
         {
-          "id": "SYSTECH3_32",
+          "id": "SYSTECH3_35",
           "title": "Guide Méthodologique : Réduction des Schémas-Blocs (Formule de Black)",
           "filename": "Méthode des blocs.pdf",
           "extension": "pdf",
@@ -621,7 +669,7 @@
           "relative_path": "courses_data/SYSTECH3/Méthode des blocs.pdf"
         },
         {
-          "id": "SYSTECH3_43",
+          "id": "SYSTECH3_46",
           "title": "Formulaire Mécanique : Torseurs des Actions Mécaniques et Liaisons",
           "filename": "torseur_action_mecanique_liaison.pdf",
           "extension": "pdf",
@@ -637,7 +685,7 @@
           "relative_path": "courses_data/SYSTECH3/torseur_action_mecanique_liaison.pdf"
         },
         {
-          "id": "SYSTECH3_35",
+          "id": "SYSTECH3_38",
           "title": "Séquence 1 : Introduction aux Systèmes Asservis et Boucle Fermée",
           "filename": "Séquence 1 sur les système.pdf",
           "extension": "pdf",
@@ -653,7 +701,7 @@
           "relative_path": "courses_data/SYSTECH3/Séquence 1 sur les système.pdf"
         },
         {
-          "id": "SYSTECH3_40",
+          "id": "SYSTECH3_43",
           "title": "TD 04 : Stabilité des Systèmes SLCI (Critère de Routh-Hurwitz)",
           "filename": "td_04.pdf",
           "extension": "pdf",
@@ -669,7 +717,7 @@
           "relative_path": "courses_data/SYSTECH3/td_04.pdf"
         },
         {
-          "id": "SYSTECH3_41",
+          "id": "SYSTECH3_44",
           "title": "TD 04 : Corrigé Officiel Critère de Routh-Hurwitz (Version Anglaise)",
           "filename": "td_04_corrige_en.pdf",
           "extension": "pdf",
@@ -685,7 +733,7 @@
           "relative_path": "courses_data/SYSTECH3/td_04_corrige_en.pdf"
         },
         {
-          "id": "SYSTECH3_42",
+          "id": "SYSTECH3_45",
           "title": "TD 06 : Analyse Harmonique & Lieux de Transfert (Bode, Nyquist)",
           "filename": "td_06.pdf",
           "extension": "pdf",
@@ -701,7 +749,7 @@
           "relative_path": "courses_data/SYSTECH3/td_06.pdf"
         },
         {
-          "id": "SYSTECH3_36",
+          "id": "SYSTECH3_39",
           "title": "TD 03 : Réduction des Schémas Fonctionnels & Identification Indicielle",
           "filename": "Td3.pdf",
           "extension": "pdf",
@@ -717,7 +765,7 @@
           "relative_path": "courses_data/SYSTECH3/Td3.pdf"
         },
         {
-          "id": "SYSTECH3_38",
+          "id": "SYSTECH3_41",
           "title": "Fiche d'Évaluation FE01 : Modélisation des Systèmes Dynamiques",
           "filename": "fe_01_grille.pdf",
           "extension": "pdf",
@@ -733,7 +781,7 @@
           "relative_path": "courses_data/SYSTECH3/fe_01_grille.pdf"
         },
         {
-          "id": "SYSTECH3_39",
+          "id": "SYSTECH3_42",
           "title": "Fiche d'Évaluation FE03 : Précision et Rapidité des Systèmes Asservis",
           "filename": "fe_03_francais_grille (1).pdf",
           "extension": "pdf",
@@ -760,7 +808,7 @@
       "document_count": 12,
       "documents": [
         {
-          "id": "MECAFLU_54",
+          "id": "MECAFLU_57",
           "title": "Chapitre 1 : Statique des Fluides (Support Complet Étudiant)",
           "filename": "Partie 1 - Méca flu - Chapitre 1 - ETUD.pdf",
           "extension": "pdf",
@@ -776,7 +824,7 @@
           "relative_path": "courses_data/MECAFLU/Partie 1 - Méca flu - Chapitre 1 - ETUD.pdf"
         },
         {
-          "id": "MECAFLU_44",
+          "id": "MECAFLU_47",
           "title": "Chapitre 2 : Mécanique des Fluides Parfaits (Bernoulli & Débits)",
           "filename": "Chapitre 2 MF Parfaits_AK.pdf",
           "extension": "pdf",
@@ -792,7 +840,7 @@
           "relative_path": "courses_data/MECAFLU/Chapitre 2 MF Parfaits_AK.pdf"
         },
         {
-          "id": "MECAFLU_45",
+          "id": "MECAFLU_48",
           "title": "Chapitre 3 : Mécanique des Fluides Réels (Viscosité & Navier-Stokes)",
           "filename": "Chapitre 3 MF Réels_AK.pdf",
           "extension": "pdf",
@@ -808,7 +856,7 @@
           "relative_path": "courses_data/MECAFLU/Chapitre 3 MF Réels_AK.pdf"
         },
         {
-          "id": "MECAFLU_46",
+          "id": "MECAFLU_49",
           "title": "Chapitre 4 : Perturbations & Ondes Acoustiques dans les Fluides",
           "filename": "Chapitre 4 MF Ondes Acoustiques_IT.pdf",
           "extension": "pdf",
@@ -824,7 +872,7 @@
           "relative_path": "courses_data/MECAFLU/Chapitre 4 MF Ondes Acoustiques_IT.pdf"
         },
         {
-          "id": "MECAFLU_47",
+          "id": "MECAFLU_50",
           "title": "Chapitre 5 : Ondes Électromagnétiques & Fonctions d'Onde",
           "filename": "Chapitre 5 MF Ondes_Electromagnétique_AK.pdf",
           "extension": "pdf",
@@ -840,7 +888,7 @@
           "relative_path": "courses_data/MECAFLU/Chapitre 5 MF Ondes_Electromagnétique_AK.pdf"
         },
         {
-          "id": "MECAFLU_50",
+          "id": "MECAFLU_53",
           "title": "Fiche Synthèse Chapitre 1 : Hydrostatique & Poussée d'Archimède",
           "filename": "MF1ch1.pdf",
           "extension": "pdf",
@@ -856,7 +904,7 @@
           "relative_path": "courses_data/MECAFLU/MF1ch1.pdf"
         },
         {
-          "id": "MECAFLU_51",
+          "id": "MECAFLU_54",
           "title": "Fiche Synthèse Chapitre 2 : Fluides Parfaits & Théorème de Bernoulli",
           "filename": "MF1ch2.pdf",
           "extension": "pdf",
@@ -872,7 +920,7 @@
           "relative_path": "courses_data/MECAFLU/MF1ch2.pdf"
         },
         {
-          "id": "MECAFLU_52",
+          "id": "MECAFLU_55",
           "title": "Fiche Synthèse Chapitre 3 : Équations de Navier-Stokes & Pertes de Charge",
           "filename": "MF1ch3.pdf",
           "extension": "pdf",
@@ -888,7 +936,7 @@
           "relative_path": "courses_data/MECAFLU/MF1ch3.pdf"
         },
         {
-          "id": "MECAFLU_55",
+          "id": "MECAFLU_58",
           "title": "Recueil Complet des Corrigés Fusionnés de Mécanique des Fluides",
           "filename": "corrigé_merged.pdf",
           "extension": "pdf",
@@ -904,7 +952,7 @@
           "relative_path": "courses_data/MECAFLU/corrigé_merged.pdf"
         },
         {
-          "id": "MECAFLU_53",
+          "id": "MECAFLU_56",
           "title": "Examen Final 2024-2025 : Mécanique des Fluides (Correction Détaillée)",
           "filename": "Méca des fluides 2024-2025 EXAMEN FR correction.pdf",
           "extension": "pdf",
@@ -920,7 +968,7 @@
           "relative_path": "courses_data/MECAFLU/Méca des fluides 2024-2025 EXAMEN FR correction.pdf"
         },
         {
-          "id": "MECAFLU_48",
+          "id": "MECAFLU_51",
           "title": "MidTerm 2024-2025 : Mécanique des Fluides (Correction Officielle V1)",
           "filename": "Correction MidTerm 2024_2025.pdf",
           "extension": "pdf",
@@ -936,7 +984,7 @@
           "relative_path": "courses_data/MECAFLU/Correction MidTerm 2024_2025.pdf"
         },
         {
-          "id": "MECAFLU_49",
+          "id": "MECAFLU_52",
           "title": "MidTerm 2024-2025 : Mécanique des Fluides (Énoncé Officiel)",
           "filename": "Enoncé MidTerm 2024 - 2025.pdf",
           "extension": "pdf",
@@ -963,7 +1011,7 @@
       "document_count": 1,
       "documents": [
         {
-          "id": "GESTPROJ_56",
+          "id": "GESTPROJ_59",
           "title": "Quiz Master Projet : Pilotage WBS, Diagramme de Gantt et Gestion des Risques",
           "filename": "Quiz_Master_projet.pdf",
           "extension": "pdf",
@@ -990,7 +1038,7 @@
       "document_count": 6,
       "documents": [
         {
-          "id": "ENJEUXENV1_57",
+          "id": "ENJEUXENV1_60",
           "title": "Banque d'Examen Chapitre 1 : Introduction & Bilan Planétaire",
           "filename": "Banque de questions _ Chapitre 1 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1006,7 +1054,7 @@
           "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 1 _ relecture de tentative _ ESME.pdf"
         },
         {
-          "id": "ENJEUXENV1_58",
+          "id": "ENJEUXENV1_61",
           "title": "Banque d'Examen Chapitre 2 : Causes du Réchauffement Climatique & CO2",
           "filename": "Banque de questions _ Chapitre 2 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1022,7 +1070,7 @@
           "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 2 _ relecture de tentative _ ESME.pdf"
         },
         {
-          "id": "ENJEUXENV1_59",
+          "id": "ENJEUXENV1_62",
           "title": "Banque d'Examen Chapitre 3 : Érosion de la Biodiversité & Écosystèmes",
           "filename": "Banque de questions _ Chapitre 3 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1038,7 +1086,7 @@
           "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 3 _ relecture de tentative _ ESME.pdf"
         },
         {
-          "id": "ENJEUXENV1_60",
+          "id": "ENJEUXENV1_63",
           "title": "Banque d'Examen Chapitre 4 : Extraction Minière & Métaux de la Transition",
           "filename": "Banque de questions _ Chapitre 4 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1054,7 +1102,7 @@
           "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 4 _ relecture de tentative _ ESME.pdf"
         },
         {
-          "id": "ENJEUXENV1_61",
+          "id": "ENJEUXENV1_64",
           "title": "Banque d'Examen Chapitre 5 : Scénarios GIEC & Leviers d'Atténuation",
           "filename": "Banque de questions _ Chapitre 5 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1070,7 +1118,7 @@
           "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 5 _ relecture de tentative _ ESME.pdf"
         },
         {
-          "id": "ENJEUXENV1_62",
+          "id": "ENJEUXENV1_65",
           "title": "Banque d'Examen Chapitre 6 : Synthèse Globale & QCM de Révision",
           "filename": "Banque de questions _ Chapitre 6 _ relecture de tentative _ ESME.pdf",
           "extension": "pdf",
@@ -1097,7 +1145,7 @@
       "document_count": 2,
       "documents": [
         {
-          "id": "ALGOAV2_63",
+          "id": "ALGOAV2_66",
           "title": "APP 1 : Algorithmique Avancée & Structures de Données (Énoncé & Directives)",
           "filename": "APP1.pdf",
           "extension": "pdf",
@@ -1113,7 +1161,7 @@
           "relative_path": "courses_data/ALGOAV2/APP1.pdf"
         },
         {
-          "id": "ALGOAV2_64",
+          "id": "ALGOAV2_67",
           "title": "APP 2 : Conception Orientée Objet & Algorithmes d'Optimisation",
           "filename": "APP2_AA3_2025-2026.pdf",
           "extension": "pdf",
@@ -1137,10 +1185,10 @@
       "description": "Diodes de redressement et Zener, transistors bipolaires et MOS, amplificateurs opérationnels (AOP)",
       "icon": "zap",
       "color": "orange",
-      "document_count": 16,
+      "document_count": 18,
       "documents": [
         {
-          "id": "ELECANA1_67",
+          "id": "ELECANA1_71",
           "title": "MidTerm 2025-2026 : Électronique Analogique 1 (Corrigé & Bonnes Réponses)",
           "filename": "EA1-MidTerm-2025-2026-FR-bonnes-réponses.pdf",
           "extension": "pdf",
@@ -1156,7 +1204,7 @@
           "relative_path": "courses_data/ELECANA1/EA1-MidTerm-2025-2026-FR-bonnes-réponses.pdf"
         },
         {
-          "id": "ELECANA1_68",
+          "id": "ELECANA1_72",
           "title": "MidTerm 2025-2026 : Électronique Analogique 1 (Énoncé Sujet)",
           "filename": "EA1-MidTerm-2025-2026-FR.pdf",
           "extension": "pdf",
@@ -1172,7 +1220,7 @@
           "relative_path": "courses_data/ELECANA1/EA1-MidTerm-2025-2026-FR.pdf"
         },
         {
-          "id": "ELECANA1_69",
+          "id": "ELECANA1_73",
           "title": "MidTerm 2023-2024 : Électronique Analogique 1 (Corrigé Intégral)",
           "filename": "EA1-MidTerm1-2023-2024-FR-Corrigé.pdf",
           "extension": "pdf",
@@ -1188,7 +1236,7 @@
           "relative_path": "courses_data/ELECANA1/EA1-MidTerm1-2023-2024-FR-Corrigé.pdf"
         },
         {
-          "id": "ELECANA1_73",
+          "id": "ELECANA1_78",
           "title": "Examen Final 2025-2026 : Électronique Analogique (Énoncé des Questions)",
           "filename": "EA2-Examen-Final-Questions-2025-2026-FR.pdf",
           "extension": "pdf",
@@ -1204,7 +1252,23 @@
           "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Questions-2025-2026-FR.pdf"
         },
         {
-          "id": "ELECANA1_72",
+          "id": "ELECANA1_70",
+          "title": "Cours Magistral : Les Diodes et Jonction PN (Slides Novatiel)",
+          "filename": "EA1-Cours-Les-Diodes-Slides.pdf",
+          "extension": "pdf",
+          "size_bytes": 3043284,
+          "size_formatted": "2.9 MB",
+          "subject_code": "ELECANA1",
+          "subject_name": "Électronique Analogique 1",
+          "ue": "UE3",
+          "section": "Supports de Cours",
+          "doc_type": "Cours",
+          "origin": "Tous campus / Tronc Commun",
+          "order_priority": 5,
+          "relative_path": "courses_data/ELECANA1/EA1-Cours-Les-Diodes-Slides.pdf"
+        },
+        {
+          "id": "ELECANA1_77",
           "title": "Examen Final 2024-2025 : Électronique Analogique (Énoncé des Questions)",
           "filename": "EA2-Examen-Final-Questions-2024-2025-FR.pdf",
           "extension": "pdf",
@@ -1220,7 +1284,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Questions-2024-2025-FR.pdf"
         },
         {
-          "id": "ELECANA1_74",
+          "id": "ELECANA1_79",
           "title": "Examen Final 2024-2025 : Corrigé Officiel & Réponses Détaillées",
           "filename": "EA2-Examen-Final-Réponses-2024-2025-FR.pdf",
           "extension": "pdf",
@@ -1236,7 +1300,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Réponses-2024-2025-FR.pdf"
         },
         {
-          "id": "ELECANA1_71",
+          "id": "ELECANA1_76",
           "title": "Examen Final Bis (Rattrapage) 2024-2025 : Électronique Analogique",
           "filename": "EA2-Examen-Final-Bis-2024-2025-FR.pdf",
           "extension": "pdf",
@@ -1252,7 +1316,23 @@
           "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Bis-2024-2025-FR.pdf"
         },
         {
-          "id": "ELECANA1_70",
+          "id": "ELECANA1_74",
+          "title": "TD 1 : Caractéristiques Principales des Diodes Standards (Arezki Haritouche)",
+          "filename": "EA1-TD1-Caracteristiques-diodes-standards.pdf",
+          "extension": "pdf",
+          "size_bytes": 1011860,
+          "size_formatted": "988.1 KB",
+          "subject_code": "ELECANA1",
+          "subject_name": "Électronique Analogique 1",
+          "ue": "UE3",
+          "section": "Travaux Dirigés",
+          "doc_type": "TD",
+          "origin": "Tous campus / Tronc Commun",
+          "order_priority": 8,
+          "relative_path": "courses_data/ELECANA1/EA1-TD1-Caracteristiques-diodes-standards.pdf"
+        },
+        {
+          "id": "ELECANA1_75",
           "title": "TD 1 à 5 : Diodes, Transistors Bipolaires et MOS (Corrigé Complet)",
           "filename": "EA2-Corrigés-TD-1-2-3-4-5-FR.pdf",
           "extension": "pdf",
@@ -1268,7 +1348,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-Corrigés-TD-1-2-3-4-5-FR.pdf"
         },
         {
-          "id": "ELECANA1_76",
+          "id": "ELECANA1_81",
           "title": "TD 9 : Amplificateurs Opérationnels & Rétroaction",
           "filename": "EA2-TD9-FR.pdf",
           "extension": "pdf",
@@ -1284,7 +1364,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-TD9-FR.pdf"
         },
         {
-          "id": "ELECANA1_75",
+          "id": "ELECANA1_80",
           "title": "TD 10 : Filtres Actifs & Stabilité des Montages AOP",
           "filename": "EA2-TD10-FR.pdf",
           "extension": "pdf",
@@ -1300,7 +1380,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-TD10-FR.pdf"
         },
         {
-          "id": "ELECANA1_77",
+          "id": "ELECANA1_82",
           "title": "TP 3 : Simulation SPICE & Examen Pratique Blanc",
           "filename": "EA2-TP3-examen-simulation-FR.pdf",
           "extension": "pdf",
@@ -1316,7 +1396,7 @@
           "relative_path": "courses_data/ELECANA1/EA2-TP3-examen-simulation-FR.pdf"
         },
         {
-          "id": "ELECANA1_65",
+          "id": "ELECANA1_68",
           "title": "Compte-Rendu Devoir TP Diodes (Rapport Spé D Arthur Legas)",
           "filename": "EA1-CR-devoir-TP-diodes-LEGAS-Arthur-SPE D-FR.docx",
           "extension": "docx",
@@ -1332,7 +1412,7 @@
           "relative_path": "courses_data/ELECANA1/EA1-CR-devoir-TP-diodes-LEGAS-Arthur-SPE D-FR.docx"
         },
         {
-          "id": "ELECANA1_66",
+          "id": "ELECANA1_69",
           "title": "Compte-Rendu Devoir TP Diodes (Exemple Validé Enseignant)",
           "filename": "EA1-CR-devoir-TP-diodes-MOUGAMMADOU-Ilyann-SPE D-FR.pdf",
           "extension": "pdf",
@@ -1348,7 +1428,7 @@
           "relative_path": "courses_data/ELECANA1/EA1-CR-devoir-TP-diodes-MOUGAMMADOU-Ilyann-SPE D-FR.pdf"
         },
         {
-          "id": "ELECANA1_80",
+          "id": "ELECANA1_85",
           "title": "TP 3 Électronique Analogique : Document de Préparation",
           "filename": "tp 3 elec ana.docx",
           "extension": "docx",
@@ -1364,12 +1444,12 @@
           "relative_path": "courses_data/ELECANA1/tp 3 elec ana.docx"
         },
         {
-          "id": "ELECANA1_79",
+          "id": "ELECANA1_84",
           "title": "Fiche Mémo Complète : Théorie des Diodes et Régimes de Polarisation",
           "filename": "Fiche_Revision_Diodes_Arthur_Complète.pdf",
           "extension": "pdf",
-          "size_bytes": 4802,
-          "size_formatted": "4.7 KB",
+          "size_bytes": 4913,
+          "size_formatted": "4.8 KB",
           "subject_code": "ELECANA1",
           "subject_name": "Électronique Analogique 1",
           "ue": "UE3",
@@ -1380,12 +1460,12 @@
           "relative_path": "courses_data/ELECANA1/Fiche_Revision_Diodes_Arthur_Complète.pdf"
         },
         {
-          "id": "ELECANA1_78",
+          "id": "ELECANA1_83",
           "title": "Fiche Mémo Rapide : Caractéristiques I-V et Formules Clés",
           "filename": "Fiche_Revision_Diodes_Arthur.pdf",
           "extension": "pdf",
-          "size_bytes": 3459,
-          "size_formatted": "3.4 KB",
+          "size_bytes": 3551,
+          "size_formatted": "3.5 KB",
           "subject_code": "ELECANA1",
           "subject_name": "Électronique Analogique 1",
           "ue": "UE3",
@@ -1407,7 +1487,7 @@
       "document_count": 4,
       "documents": [
         {
-          "id": "ANG_81",
+          "id": "ANG_86",
           "title": "Syllabus Officiel Anglais Spé (S03 - 2025/2026)",
           "filename": "Syllabus_cours_6230_20250616.pdf",
           "extension": "pdf",
@@ -1423,7 +1503,7 @@
           "relative_path": "courses_data/ANG/Syllabus_cours_6230_20250616.pdf"
         },
         {
-          "id": "ANG_82",
+          "id": "ANG_87",
           "title": "Syllabus Anglais Professionnel & Préparation Certifications",
           "filename": "Syllabus_cours_6230_20250617.pdf",
           "extension": "pdf",
@@ -1439,7 +1519,7 @@
           "relative_path": "courses_data/ANG/Syllabus_cours_6230_20250617.pdf"
         },
         {
-          "id": "ANG_83",
+          "id": "ANG_88",
           "title": "Syllabus Anglais Ingénieur : Communication Technique & Débats",
           "filename": "Syllabus_cours_6233_20250617.pdf",
           "extension": "pdf",
@@ -1455,7 +1535,7 @@
           "relative_path": "courses_data/ANG/Syllabus_cours_6233_20250617.pdf"
         },
         {
-          "id": "ANG_84",
+          "id": "ANG_89",
           "title": "Modalités d'Évaluation & Barèmes Anglais Semestre 3",
           "filename": "Syllabus_cours_6235_20250617.pdf",
           "extension": "pdf",
@@ -1482,7 +1562,7 @@
       "document_count": 5,
       "documents": [
         {
-          "id": "GESTENT1_85",
+          "id": "GESTENT1_90",
           "title": "Séance 03 : Analyse Stratégique & Chaîne de Valeur de l'Entreprise",
           "filename": "03_entrprise-agro-chaine-valeur.pdf",
           "extension": "pdf",
@@ -1498,7 +1578,7 @@
           "relative_path": "courses_data/GESTENT1/03_entrprise-agro-chaine-valeur.pdf"
         },
         {
-          "id": "GESTENT1_86",
+          "id": "GESTENT1_91",
           "title": "Support de Cours : Initiation à la Gestion et à la Comptabilité d'Entreprise",
           "filename": "Ini à l'ent.pdf",
           "extension": "pdf",
@@ -1514,7 +1594,7 @@
           "relative_path": "courses_data/GESTENT1/Ini à l'ent.pdf"
         },
         {
-          "id": "GESTENT1_87",
+          "id": "GESTENT1_92",
           "title": "Dossier d'Étude de Cas : Initiation à l'Entreprise (Synthèse)",
           "filename": "Ini à lent bis - au cas ou.docx",
           "extension": "docx",
@@ -1530,7 +1610,7 @@
           "relative_path": "courses_data/GESTENT1/Ini à lent bis - au cas ou.docx"
         },
         {
-          "id": "GESTENT1_88",
+          "id": "GESTENT1_93",
           "title": "Dossier d'Étude de Cas : Initiation à l'Entreprise (Synthèse)",
           "filename": "Ini à lent bis - au cas ou.pdf",
           "extension": "pdf",
@@ -1546,7 +1626,7 @@
           "relative_path": "courses_data/GESTENT1/Ini à lent bis - au cas ou.pdf"
         },
         {
-          "id": "GESTENT1_89",
+          "id": "GESTENT1_94",
           "title": "Soutenance Orale : Guide & Grille d'Évaluation Initiation à l'Entreprise",
           "filename": "Oral initiation à l'entreprise.docx",
           "extension": "docx",
@@ -1982,6 +2062,54 @@
       "relative_path": "courses_data/SIGNAUXSYS/Examen-Signaux-2024-2025-RéponsesBarème.pdf"
     },
     {
+      "id": "SIGNAUXSYS_30",
+      "title": "TD 1 : Régimes Transitoires - Corrigé Détaillé (Double RC, Défibrillateur, RLC)",
+      "filename": "TD1-Regimes-transitoires-corrige-detaille.pdf",
+      "extension": "pdf",
+      "size_bytes": 322124,
+      "size_formatted": "314.6 KB",
+      "subject_code": "SIGNAUXSYS",
+      "subject_name": "Signaux et Systèmes",
+      "ue": "UE1",
+      "section": "Travaux Dirigés",
+      "doc_type": "TD & Corrigé",
+      "origin": "Tous campus / Tronc Commun",
+      "order_priority": 5,
+      "relative_path": "courses_data/SIGNAUXSYS/TD1-Regimes-transitoires-corrige-detaille.pdf"
+    },
+    {
+      "id": "SIGNAUXSYS_29",
+      "title": "TD Séquence 1 - Exercice 2 : Le Tube à Décharge & Oscillateur de Relaxation",
+      "filename": "TD-Sequence1-Exo2-Le-tube-a-decharge.pdf",
+      "extension": "pdf",
+      "size_bytes": 845381,
+      "size_formatted": "825.6 KB",
+      "subject_code": "SIGNAUXSYS",
+      "subject_name": "Signaux et Systèmes",
+      "ue": "UE1",
+      "section": "Travaux Dirigés",
+      "doc_type": "TD & Corrigé",
+      "origin": "Tous campus / Tronc Commun",
+      "order_priority": 6,
+      "relative_path": "courses_data/SIGNAUXSYS/TD-Sequence1-Exo2-Le-tube-a-decharge.pdf"
+    },
+    {
+      "id": "SIGNAUXSYS_28",
+      "title": "Fiche Méthode : La Transformée de Laplace, Mode d'Emploi (Hakeim Talleb)",
+      "filename": "La_transformee_de_Laplace_mode_d_emploi.pdf",
+      "extension": "pdf",
+      "size_bytes": 201208,
+      "size_formatted": "196.5 KB",
+      "subject_code": "SIGNAUXSYS",
+      "subject_name": "Signaux et Systèmes",
+      "ue": "UE1",
+      "section": "Supports de Cours",
+      "doc_type": "Cours",
+      "origin": "Tous campus / Tronc Commun",
+      "order_priority": 8,
+      "relative_path": "courses_data/SIGNAUXSYS/La_transformee_de_Laplace_mode_d_emploi.pdf"
+    },
+    {
       "id": "SIGNAUXSYS_26",
       "title": "Chapitre 5 : Approximation des Régimes Quasi-Stationnaires (ARQS)",
       "filename": "Chapitre - 5 - ARQS (FR).pdf",
@@ -1998,7 +2126,7 @@
       "relative_path": "courses_data/SIGNAUXSYS/Chapitre - 5 - ARQS (FR).pdf"
     },
     {
-      "id": "SIGNAUXSYS_28",
+      "id": "SIGNAUXSYS_31",
       "title": "TD 5 : Applications de l'ARQS et Circuits Électrocinétiques",
       "filename": "TD5 - ARQS (FR).pdf",
       "extension": "pdf",
@@ -2014,7 +2142,7 @@
       "relative_path": "courses_data/SIGNAUXSYS/TD5 - ARQS (FR).pdf"
     },
     {
-      "id": "ENJEUXENV1_57",
+      "id": "ENJEUXENV1_60",
       "title": "Banque d'Examen Chapitre 1 : Introduction & Bilan Planétaire",
       "filename": "Banque de questions _ Chapitre 1 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2030,7 +2158,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 1 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "ENJEUXENV1_58",
+      "id": "ENJEUXENV1_61",
       "title": "Banque d'Examen Chapitre 2 : Causes du Réchauffement Climatique & CO2",
       "filename": "Banque de questions _ Chapitre 2 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2046,7 +2174,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 2 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "ENJEUXENV1_59",
+      "id": "ENJEUXENV1_62",
       "title": "Banque d'Examen Chapitre 3 : Érosion de la Biodiversité & Écosystèmes",
       "filename": "Banque de questions _ Chapitre 3 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2062,7 +2190,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 3 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "ENJEUXENV1_60",
+      "id": "ENJEUXENV1_63",
       "title": "Banque d'Examen Chapitre 4 : Extraction Minière & Métaux de la Transition",
       "filename": "Banque de questions _ Chapitre 4 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2078,7 +2206,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 4 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "ENJEUXENV1_61",
+      "id": "ENJEUXENV1_64",
       "title": "Banque d'Examen Chapitre 5 : Scénarios GIEC & Leviers d'Atténuation",
       "filename": "Banque de questions _ Chapitre 5 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2094,7 +2222,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 5 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "ENJEUXENV1_62",
+      "id": "ENJEUXENV1_65",
       "title": "Banque d'Examen Chapitre 6 : Synthèse Globale & QCM de Révision",
       "filename": "Banque de questions _ Chapitre 6 _ relecture de tentative _ ESME.pdf",
       "extension": "pdf",
@@ -2110,7 +2238,7 @@
       "relative_path": "courses_data/ENJEUXENV1/Banque de questions _ Chapitre 6 _ relecture de tentative _ ESME.pdf"
     },
     {
-      "id": "GESTPROJ_56",
+      "id": "GESTPROJ_59",
       "title": "Quiz Master Projet : Pilotage WBS, Diagramme de Gantt et Gestion des Risques",
       "filename": "Quiz_Master_projet.pdf",
       "extension": "pdf",
@@ -2126,7 +2254,7 @@
       "relative_path": "courses_data/GESTPROJ/Quiz_Master_projet.pdf"
     },
     {
-      "id": "MECAFLU_54",
+      "id": "MECAFLU_57",
       "title": "Chapitre 1 : Statique des Fluides (Support Complet Étudiant)",
       "filename": "Partie 1 - Méca flu - Chapitre 1 - ETUD.pdf",
       "extension": "pdf",
@@ -2142,7 +2270,7 @@
       "relative_path": "courses_data/MECAFLU/Partie 1 - Méca flu - Chapitre 1 - ETUD.pdf"
     },
     {
-      "id": "MECAFLU_44",
+      "id": "MECAFLU_47",
       "title": "Chapitre 2 : Mécanique des Fluides Parfaits (Bernoulli & Débits)",
       "filename": "Chapitre 2 MF Parfaits_AK.pdf",
       "extension": "pdf",
@@ -2158,7 +2286,7 @@
       "relative_path": "courses_data/MECAFLU/Chapitre 2 MF Parfaits_AK.pdf"
     },
     {
-      "id": "MECAFLU_45",
+      "id": "MECAFLU_48",
       "title": "Chapitre 3 : Mécanique des Fluides Réels (Viscosité & Navier-Stokes)",
       "filename": "Chapitre 3 MF Réels_AK.pdf",
       "extension": "pdf",
@@ -2174,7 +2302,7 @@
       "relative_path": "courses_data/MECAFLU/Chapitre 3 MF Réels_AK.pdf"
     },
     {
-      "id": "MECAFLU_46",
+      "id": "MECAFLU_49",
       "title": "Chapitre 4 : Perturbations & Ondes Acoustiques dans les Fluides",
       "filename": "Chapitre 4 MF Ondes Acoustiques_IT.pdf",
       "extension": "pdf",
@@ -2190,7 +2318,7 @@
       "relative_path": "courses_data/MECAFLU/Chapitre 4 MF Ondes Acoustiques_IT.pdf"
     },
     {
-      "id": "MECAFLU_47",
+      "id": "MECAFLU_50",
       "title": "Chapitre 5 : Ondes Électromagnétiques & Fonctions d'Onde",
       "filename": "Chapitre 5 MF Ondes_Electromagnétique_AK.pdf",
       "extension": "pdf",
@@ -2206,7 +2334,7 @@
       "relative_path": "courses_data/MECAFLU/Chapitre 5 MF Ondes_Electromagnétique_AK.pdf"
     },
     {
-      "id": "MECAFLU_50",
+      "id": "MECAFLU_53",
       "title": "Fiche Synthèse Chapitre 1 : Hydrostatique & Poussée d'Archimède",
       "filename": "MF1ch1.pdf",
       "extension": "pdf",
@@ -2222,7 +2350,7 @@
       "relative_path": "courses_data/MECAFLU/MF1ch1.pdf"
     },
     {
-      "id": "MECAFLU_51",
+      "id": "MECAFLU_54",
       "title": "Fiche Synthèse Chapitre 2 : Fluides Parfaits & Théorème de Bernoulli",
       "filename": "MF1ch2.pdf",
       "extension": "pdf",
@@ -2238,7 +2366,7 @@
       "relative_path": "courses_data/MECAFLU/MF1ch2.pdf"
     },
     {
-      "id": "MECAFLU_52",
+      "id": "MECAFLU_55",
       "title": "Fiche Synthèse Chapitre 3 : Équations de Navier-Stokes & Pertes de Charge",
       "filename": "MF1ch3.pdf",
       "extension": "pdf",
@@ -2254,7 +2382,7 @@
       "relative_path": "courses_data/MECAFLU/MF1ch3.pdf"
     },
     {
-      "id": "MECAFLU_55",
+      "id": "MECAFLU_58",
       "title": "Recueil Complet des Corrigés Fusionnés de Mécanique des Fluides",
       "filename": "corrigé_merged.pdf",
       "extension": "pdf",
@@ -2270,7 +2398,7 @@
       "relative_path": "courses_data/MECAFLU/corrigé_merged.pdf"
     },
     {
-      "id": "MECAFLU_53",
+      "id": "MECAFLU_56",
       "title": "Examen Final 2024-2025 : Mécanique des Fluides (Correction Détaillée)",
       "filename": "Méca des fluides 2024-2025 EXAMEN FR correction.pdf",
       "extension": "pdf",
@@ -2286,7 +2414,7 @@
       "relative_path": "courses_data/MECAFLU/Méca des fluides 2024-2025 EXAMEN FR correction.pdf"
     },
     {
-      "id": "MECAFLU_48",
+      "id": "MECAFLU_51",
       "title": "MidTerm 2024-2025 : Mécanique des Fluides (Correction Officielle V1)",
       "filename": "Correction MidTerm 2024_2025.pdf",
       "extension": "pdf",
@@ -2302,7 +2430,7 @@
       "relative_path": "courses_data/MECAFLU/Correction MidTerm 2024_2025.pdf"
     },
     {
-      "id": "MECAFLU_49",
+      "id": "MECAFLU_52",
       "title": "MidTerm 2024-2025 : Mécanique des Fluides (Énoncé Officiel)",
       "filename": "Enoncé MidTerm 2024 - 2025.pdf",
       "extension": "pdf",
@@ -2318,7 +2446,7 @@
       "relative_path": "courses_data/MECAFLU/Enoncé MidTerm 2024 - 2025.pdf"
     },
     {
-      "id": "SYSTECH3_33",
+      "id": "SYSTECH3_36",
       "title": "Final Exam 2026 : Systèmes Technologiques Spé (Épreuve Complète)",
       "filename": "SPE ST4 Final Exam 2026 FR.pdf",
       "extension": "pdf",
@@ -2334,7 +2462,7 @@
       "relative_path": "courses_data/SYSTECH3/SPE ST4 Final Exam 2026 FR.pdf"
     },
     {
-      "id": "SYSTECH3_34",
+      "id": "SYSTECH3_37",
       "title": "MidTerms Spé / Sup : Systèmes Techniques avec Grille d'Évaluation",
       "filename": "SUP_Systèmes Techniques 2(avec grille)_MIDTERMS_FR.pdf",
       "extension": "pdf",
@@ -2350,7 +2478,7 @@
       "relative_path": "courses_data/SYSTECH3/SUP_Systèmes Techniques 2(avec grille)_MIDTERMS_FR.pdf"
     },
     {
-      "id": "SYSTECH3_30",
+      "id": "SYSTECH3_33",
       "title": "MidTerm Systèmes Techniques : Automatique Continue & Stabilité",
       "filename": "Midterm Des Systèmes Techniques.pdf",
       "extension": "pdf",
@@ -2366,7 +2494,7 @@
       "relative_path": "courses_data/SYSTECH3/Midterm Des Systèmes Techniques.pdf"
     },
     {
-      "id": "SYSTECH3_31",
+      "id": "SYSTECH3_34",
       "title": "MidTerms 2023-2024 : Systèmes Techniques (Corrigé Intégral)",
       "filename": "Midtermes 2023-2024 corrigé.pdf",
       "extension": "pdf",
@@ -2382,7 +2510,7 @@
       "relative_path": "courses_data/SYSTECH3/Midtermes 2023-2024 corrigé.pdf"
     },
     {
-      "id": "SYSTECH3_29",
+      "id": "SYSTECH3_32",
       "title": "Final Exam ST2 2024 : Épreuve d'Automatique et Modélisation",
       "filename": "FE ST2 2024.pdf",
       "extension": "pdf",
@@ -2398,7 +2526,7 @@
       "relative_path": "courses_data/SYSTECH3/FE ST2 2024.pdf"
     },
     {
-      "id": "SYSTECH3_37",
+      "id": "SYSTECH3_40",
       "title": "Cours & Formulaire : Fonctions de Transfert & Transformée de Laplace",
       "filename": "Z-Fonction de transfert.pdf",
       "extension": "pdf",
@@ -2414,7 +2542,7 @@
       "relative_path": "courses_data/SYSTECH3/Z-Fonction de transfert.pdf"
     },
     {
-      "id": "SYSTECH3_32",
+      "id": "SYSTECH3_35",
       "title": "Guide Méthodologique : Réduction des Schémas-Blocs (Formule de Black)",
       "filename": "Méthode des blocs.pdf",
       "extension": "pdf",
@@ -2430,7 +2558,7 @@
       "relative_path": "courses_data/SYSTECH3/Méthode des blocs.pdf"
     },
     {
-      "id": "SYSTECH3_43",
+      "id": "SYSTECH3_46",
       "title": "Formulaire Mécanique : Torseurs des Actions Mécaniques et Liaisons",
       "filename": "torseur_action_mecanique_liaison.pdf",
       "extension": "pdf",
@@ -2446,7 +2574,7 @@
       "relative_path": "courses_data/SYSTECH3/torseur_action_mecanique_liaison.pdf"
     },
     {
-      "id": "SYSTECH3_35",
+      "id": "SYSTECH3_38",
       "title": "Séquence 1 : Introduction aux Systèmes Asservis et Boucle Fermée",
       "filename": "Séquence 1 sur les système.pdf",
       "extension": "pdf",
@@ -2462,7 +2590,7 @@
       "relative_path": "courses_data/SYSTECH3/Séquence 1 sur les système.pdf"
     },
     {
-      "id": "SYSTECH3_40",
+      "id": "SYSTECH3_43",
       "title": "TD 04 : Stabilité des Systèmes SLCI (Critère de Routh-Hurwitz)",
       "filename": "td_04.pdf",
       "extension": "pdf",
@@ -2478,7 +2606,7 @@
       "relative_path": "courses_data/SYSTECH3/td_04.pdf"
     },
     {
-      "id": "SYSTECH3_41",
+      "id": "SYSTECH3_44",
       "title": "TD 04 : Corrigé Officiel Critère de Routh-Hurwitz (Version Anglaise)",
       "filename": "td_04_corrige_en.pdf",
       "extension": "pdf",
@@ -2494,7 +2622,7 @@
       "relative_path": "courses_data/SYSTECH3/td_04_corrige_en.pdf"
     },
     {
-      "id": "SYSTECH3_42",
+      "id": "SYSTECH3_45",
       "title": "TD 06 : Analyse Harmonique & Lieux de Transfert (Bode, Nyquist)",
       "filename": "td_06.pdf",
       "extension": "pdf",
@@ -2510,7 +2638,7 @@
       "relative_path": "courses_data/SYSTECH3/td_06.pdf"
     },
     {
-      "id": "SYSTECH3_36",
+      "id": "SYSTECH3_39",
       "title": "TD 03 : Réduction des Schémas Fonctionnels & Identification Indicielle",
       "filename": "Td3.pdf",
       "extension": "pdf",
@@ -2526,7 +2654,7 @@
       "relative_path": "courses_data/SYSTECH3/Td3.pdf"
     },
     {
-      "id": "SYSTECH3_38",
+      "id": "SYSTECH3_41",
       "title": "Fiche d'Évaluation FE01 : Modélisation des Systèmes Dynamiques",
       "filename": "fe_01_grille.pdf",
       "extension": "pdf",
@@ -2542,7 +2670,7 @@
       "relative_path": "courses_data/SYSTECH3/fe_01_grille.pdf"
     },
     {
-      "id": "SYSTECH3_39",
+      "id": "SYSTECH3_42",
       "title": "Fiche d'Évaluation FE03 : Précision et Rapidité des Systèmes Asservis",
       "filename": "fe_03_francais_grille (1).pdf",
       "extension": "pdf",
@@ -2558,7 +2686,7 @@
       "relative_path": "courses_data/SYSTECH3/fe_03_francais_grille (1).pdf"
     },
     {
-      "id": "ALGOAV2_63",
+      "id": "ALGOAV2_66",
       "title": "APP 1 : Algorithmique Avancée & Structures de Données (Énoncé & Directives)",
       "filename": "APP1.pdf",
       "extension": "pdf",
@@ -2574,7 +2702,7 @@
       "relative_path": "courses_data/ALGOAV2/APP1.pdf"
     },
     {
-      "id": "ALGOAV2_64",
+      "id": "ALGOAV2_67",
       "title": "APP 2 : Conception Orientée Objet & Algorithmes d'Optimisation",
       "filename": "APP2_AA3_2025-2026.pdf",
       "extension": "pdf",
@@ -2590,7 +2718,7 @@
       "relative_path": "courses_data/ALGOAV2/APP2_AA3_2025-2026.pdf"
     },
     {
-      "id": "ANG_81",
+      "id": "ANG_86",
       "title": "Syllabus Officiel Anglais Spé (S03 - 2025/2026)",
       "filename": "Syllabus_cours_6230_20250616.pdf",
       "extension": "pdf",
@@ -2606,7 +2734,7 @@
       "relative_path": "courses_data/ANG/Syllabus_cours_6230_20250616.pdf"
     },
     {
-      "id": "ANG_82",
+      "id": "ANG_87",
       "title": "Syllabus Anglais Professionnel & Préparation Certifications",
       "filename": "Syllabus_cours_6230_20250617.pdf",
       "extension": "pdf",
@@ -2622,7 +2750,7 @@
       "relative_path": "courses_data/ANG/Syllabus_cours_6230_20250617.pdf"
     },
     {
-      "id": "ANG_83",
+      "id": "ANG_88",
       "title": "Syllabus Anglais Ingénieur : Communication Technique & Débats",
       "filename": "Syllabus_cours_6233_20250617.pdf",
       "extension": "pdf",
@@ -2638,7 +2766,7 @@
       "relative_path": "courses_data/ANG/Syllabus_cours_6233_20250617.pdf"
     },
     {
-      "id": "ANG_84",
+      "id": "ANG_89",
       "title": "Modalités d'Évaluation & Barèmes Anglais Semestre 3",
       "filename": "Syllabus_cours_6235_20250617.pdf",
       "extension": "pdf",
@@ -2654,7 +2782,7 @@
       "relative_path": "courses_data/ANG/Syllabus_cours_6235_20250617.pdf"
     },
     {
-      "id": "ELECANA1_67",
+      "id": "ELECANA1_71",
       "title": "MidTerm 2025-2026 : Électronique Analogique 1 (Corrigé & Bonnes Réponses)",
       "filename": "EA1-MidTerm-2025-2026-FR-bonnes-réponses.pdf",
       "extension": "pdf",
@@ -2670,7 +2798,7 @@
       "relative_path": "courses_data/ELECANA1/EA1-MidTerm-2025-2026-FR-bonnes-réponses.pdf"
     },
     {
-      "id": "ELECANA1_68",
+      "id": "ELECANA1_72",
       "title": "MidTerm 2025-2026 : Électronique Analogique 1 (Énoncé Sujet)",
       "filename": "EA1-MidTerm-2025-2026-FR.pdf",
       "extension": "pdf",
@@ -2686,7 +2814,7 @@
       "relative_path": "courses_data/ELECANA1/EA1-MidTerm-2025-2026-FR.pdf"
     },
     {
-      "id": "ELECANA1_69",
+      "id": "ELECANA1_73",
       "title": "MidTerm 2023-2024 : Électronique Analogique 1 (Corrigé Intégral)",
       "filename": "EA1-MidTerm1-2023-2024-FR-Corrigé.pdf",
       "extension": "pdf",
@@ -2702,7 +2830,7 @@
       "relative_path": "courses_data/ELECANA1/EA1-MidTerm1-2023-2024-FR-Corrigé.pdf"
     },
     {
-      "id": "ELECANA1_73",
+      "id": "ELECANA1_78",
       "title": "Examen Final 2025-2026 : Électronique Analogique (Énoncé des Questions)",
       "filename": "EA2-Examen-Final-Questions-2025-2026-FR.pdf",
       "extension": "pdf",
@@ -2718,7 +2846,23 @@
       "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Questions-2025-2026-FR.pdf"
     },
     {
-      "id": "ELECANA1_72",
+      "id": "ELECANA1_70",
+      "title": "Cours Magistral : Les Diodes et Jonction PN (Slides Novatiel)",
+      "filename": "EA1-Cours-Les-Diodes-Slides.pdf",
+      "extension": "pdf",
+      "size_bytes": 3043284,
+      "size_formatted": "2.9 MB",
+      "subject_code": "ELECANA1",
+      "subject_name": "Électronique Analogique 1",
+      "ue": "UE3",
+      "section": "Supports de Cours",
+      "doc_type": "Cours",
+      "origin": "Tous campus / Tronc Commun",
+      "order_priority": 5,
+      "relative_path": "courses_data/ELECANA1/EA1-Cours-Les-Diodes-Slides.pdf"
+    },
+    {
+      "id": "ELECANA1_77",
       "title": "Examen Final 2024-2025 : Électronique Analogique (Énoncé des Questions)",
       "filename": "EA2-Examen-Final-Questions-2024-2025-FR.pdf",
       "extension": "pdf",
@@ -2734,7 +2878,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Questions-2024-2025-FR.pdf"
     },
     {
-      "id": "ELECANA1_74",
+      "id": "ELECANA1_79",
       "title": "Examen Final 2024-2025 : Corrigé Officiel & Réponses Détaillées",
       "filename": "EA2-Examen-Final-Réponses-2024-2025-FR.pdf",
       "extension": "pdf",
@@ -2750,7 +2894,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Réponses-2024-2025-FR.pdf"
     },
     {
-      "id": "ELECANA1_71",
+      "id": "ELECANA1_76",
       "title": "Examen Final Bis (Rattrapage) 2024-2025 : Électronique Analogique",
       "filename": "EA2-Examen-Final-Bis-2024-2025-FR.pdf",
       "extension": "pdf",
@@ -2766,7 +2910,23 @@
       "relative_path": "courses_data/ELECANA1/EA2-Examen-Final-Bis-2024-2025-FR.pdf"
     },
     {
-      "id": "ELECANA1_70",
+      "id": "ELECANA1_74",
+      "title": "TD 1 : Caractéristiques Principales des Diodes Standards (Arezki Haritouche)",
+      "filename": "EA1-TD1-Caracteristiques-diodes-standards.pdf",
+      "extension": "pdf",
+      "size_bytes": 1011860,
+      "size_formatted": "988.1 KB",
+      "subject_code": "ELECANA1",
+      "subject_name": "Électronique Analogique 1",
+      "ue": "UE3",
+      "section": "Travaux Dirigés",
+      "doc_type": "TD",
+      "origin": "Tous campus / Tronc Commun",
+      "order_priority": 8,
+      "relative_path": "courses_data/ELECANA1/EA1-TD1-Caracteristiques-diodes-standards.pdf"
+    },
+    {
+      "id": "ELECANA1_75",
       "title": "TD 1 à 5 : Diodes, Transistors Bipolaires et MOS (Corrigé Complet)",
       "filename": "EA2-Corrigés-TD-1-2-3-4-5-FR.pdf",
       "extension": "pdf",
@@ -2782,7 +2942,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-Corrigés-TD-1-2-3-4-5-FR.pdf"
     },
     {
-      "id": "ELECANA1_76",
+      "id": "ELECANA1_81",
       "title": "TD 9 : Amplificateurs Opérationnels & Rétroaction",
       "filename": "EA2-TD9-FR.pdf",
       "extension": "pdf",
@@ -2798,7 +2958,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-TD9-FR.pdf"
     },
     {
-      "id": "ELECANA1_75",
+      "id": "ELECANA1_80",
       "title": "TD 10 : Filtres Actifs & Stabilité des Montages AOP",
       "filename": "EA2-TD10-FR.pdf",
       "extension": "pdf",
@@ -2814,7 +2974,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-TD10-FR.pdf"
     },
     {
-      "id": "ELECANA1_77",
+      "id": "ELECANA1_82",
       "title": "TP 3 : Simulation SPICE & Examen Pratique Blanc",
       "filename": "EA2-TP3-examen-simulation-FR.pdf",
       "extension": "pdf",
@@ -2830,7 +2990,7 @@
       "relative_path": "courses_data/ELECANA1/EA2-TP3-examen-simulation-FR.pdf"
     },
     {
-      "id": "ELECANA1_65",
+      "id": "ELECANA1_68",
       "title": "Compte-Rendu Devoir TP Diodes (Rapport Spé D Arthur Legas)",
       "filename": "EA1-CR-devoir-TP-diodes-LEGAS-Arthur-SPE D-FR.docx",
       "extension": "docx",
@@ -2846,7 +3006,7 @@
       "relative_path": "courses_data/ELECANA1/EA1-CR-devoir-TP-diodes-LEGAS-Arthur-SPE D-FR.docx"
     },
     {
-      "id": "ELECANA1_66",
+      "id": "ELECANA1_69",
       "title": "Compte-Rendu Devoir TP Diodes (Exemple Validé Enseignant)",
       "filename": "EA1-CR-devoir-TP-diodes-MOUGAMMADOU-Ilyann-SPE D-FR.pdf",
       "extension": "pdf",
@@ -2862,7 +3022,7 @@
       "relative_path": "courses_data/ELECANA1/EA1-CR-devoir-TP-diodes-MOUGAMMADOU-Ilyann-SPE D-FR.pdf"
     },
     {
-      "id": "ELECANA1_80",
+      "id": "ELECANA1_85",
       "title": "TP 3 Électronique Analogique : Document de Préparation",
       "filename": "tp 3 elec ana.docx",
       "extension": "docx",
@@ -2878,12 +3038,12 @@
       "relative_path": "courses_data/ELECANA1/tp 3 elec ana.docx"
     },
     {
-      "id": "ELECANA1_79",
+      "id": "ELECANA1_84",
       "title": "Fiche Mémo Complète : Théorie des Diodes et Régimes de Polarisation",
       "filename": "Fiche_Revision_Diodes_Arthur_Complète.pdf",
       "extension": "pdf",
-      "size_bytes": 4802,
-      "size_formatted": "4.7 KB",
+      "size_bytes": 4913,
+      "size_formatted": "4.8 KB",
       "subject_code": "ELECANA1",
       "subject_name": "Électronique Analogique 1",
       "ue": "UE3",
@@ -2894,12 +3054,12 @@
       "relative_path": "courses_data/ELECANA1/Fiche_Revision_Diodes_Arthur_Complète.pdf"
     },
     {
-      "id": "ELECANA1_78",
+      "id": "ELECANA1_83",
       "title": "Fiche Mémo Rapide : Caractéristiques I-V et Formules Clés",
       "filename": "Fiche_Revision_Diodes_Arthur.pdf",
       "extension": "pdf",
-      "size_bytes": 3459,
-      "size_formatted": "3.4 KB",
+      "size_bytes": 3551,
+      "size_formatted": "3.5 KB",
       "subject_code": "ELECANA1",
       "subject_name": "Électronique Analogique 1",
       "ue": "UE3",
@@ -2910,7 +3070,7 @@
       "relative_path": "courses_data/ELECANA1/Fiche_Revision_Diodes_Arthur.pdf"
     },
     {
-      "id": "GESTENT1_85",
+      "id": "GESTENT1_90",
       "title": "Séance 03 : Analyse Stratégique & Chaîne de Valeur de l'Entreprise",
       "filename": "03_entrprise-agro-chaine-valeur.pdf",
       "extension": "pdf",
@@ -2926,7 +3086,7 @@
       "relative_path": "courses_data/GESTENT1/03_entrprise-agro-chaine-valeur.pdf"
     },
     {
-      "id": "GESTENT1_86",
+      "id": "GESTENT1_91",
       "title": "Support de Cours : Initiation à la Gestion et à la Comptabilité d'Entreprise",
       "filename": "Ini à l'ent.pdf",
       "extension": "pdf",
@@ -2942,7 +3102,7 @@
       "relative_path": "courses_data/GESTENT1/Ini à l'ent.pdf"
     },
     {
-      "id": "GESTENT1_87",
+      "id": "GESTENT1_92",
       "title": "Dossier d'Étude de Cas : Initiation à l'Entreprise (Synthèse)",
       "filename": "Ini à lent bis - au cas ou.docx",
       "extension": "docx",
@@ -2958,7 +3118,7 @@
       "relative_path": "courses_data/GESTENT1/Ini à lent bis - au cas ou.docx"
     },
     {
-      "id": "GESTENT1_88",
+      "id": "GESTENT1_93",
       "title": "Dossier d'Étude de Cas : Initiation à l'Entreprise (Synthèse)",
       "filename": "Ini à lent bis - au cas ou.pdf",
       "extension": "pdf",
@@ -2974,7 +3134,7 @@
       "relative_path": "courses_data/GESTENT1/Ini à lent bis - au cas ou.pdf"
     },
     {
-      "id": "GESTENT1_89",
+      "id": "GESTENT1_94",
       "title": "Soutenance Orale : Guide & Grille d'Évaluation Initiation à l'Entreprise",
       "filename": "Oral initiation à l'entreprise.docx",
       "extension": "docx",
